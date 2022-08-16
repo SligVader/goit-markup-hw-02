@@ -1,7 +1,14 @@
 /*.list {
       font-family: 'Roboto';}*/
 
-.header .logo {
+body {
+
+width: 1600px;
+margin: 0 auto;
+background-color: #FFFFFF;
+}
+
+      .header .logo {
     color: #2196F3;
     font-family: 'Raleway';
 font-style: normal;
