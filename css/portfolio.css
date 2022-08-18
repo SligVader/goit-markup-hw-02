@@ -1,0 +1,32 @@
+
+.btn {
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;}
+
+.btn:hover, .btn:focus {color: #ffffff; background-color: #2196F3;}
+.btn:active {color: #ffffff; background-color: #2196F3;}
+/*.btn:visited {color: #757575 }*/
+
+.project-name {font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;}
+
+.product {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}

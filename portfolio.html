@@ -9,37 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
   <body>
-      <header class="header">
+    <header class="header">
       <nav>
-        <a class="logo" href="./index.html">Web<span class="logo-part">studio</span></a>
+        <a class="logo" href="./index.html">Web<span class="head-logo-part">studio</span></a>
         <ul class="header-list">
-          <li class="list-item-one"><a href="./index.html">Studio</a></li>
-          <li class="list-item-two"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="list-item-three"><a href="">Contacts</a></li>
+          <li><a class="portfolio-header-one" href="./index.html">Studio</a></li>
+          <li><a class="portfolio-header-two" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="main-header-three" href="">Contacts</a></li>
         </ul>
       </nav>
       <ul class="header-list">
-        <li class="list-item-four"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="list-item-five"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="main-header-four" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="main-header-five" href="tel:+12127724150">+1 212 772 4150</a></li>
       </ul>
     </header>
     <main>
       <section>
-        <h1 hidden class="portfolio-nav">Portfolio navigation</h1>
-        <ul>
-          <li>
-            <button class="btn" type="button">All</button>
-            <button class="btn" type="button">Web-sites</button>
-            <button class="btn" type="button">Apps</button>
-            <button class="btn" type="button">Design</button>
-            <button class="btn" type="button">Marketing</button>
-          </li>
-        </ul>
+        <h1 class="hide">Portfolio navigation</h1>
+        <button class="btn" type="button">All</button>
+        <button class="btn" type="button">Web-sites</button>
+        <button class="btn" type="button">Apps</button>
+        <button class="btn" type="button">Design</button>
+        <button class="btn" type="button">Marketing</button>
       </section>
       <section>
-        <h2 hidden class="work-examples">Work examples</h2>
+        <h2 class="hide">Work examples</h2>
         <ul>
           <li class="projects">
             <img
@@ -49,8 +46,8 @@
               width="370"
               height="294"
             />
-            <h3>Technoduck</h3>
-            <p>Web-site</p>
+            <h3 class="project-name">Technoduck</h3>
+            <p class="product">Web-site</p>
           </li>
           <li class="projects">
             <img
@@ -60,8 +57,8 @@
               width="370"
               height="294"
             />
-            <h3>Poster new orlean vs golden star</h3>
-            <p>Design</p>
+            <h3 class="project-name">Poster new orlean vs golden star</h3>
+            <p class="product">Design</p>
           </li>
           <li class="projects"
             ><img
@@ -71,8 +68,8 @@
               width="370"
               height="294"
             />
-            <h3>Seafood restaurant</h3>
-            <p>Apps</p>
+            <h3 class="project-name">Seafood restaurant</h3>
+            <p class="product">Apps</p>
           </li>
           <li class="projects"
             ><img
@@ -82,8 +79,8 @@
               width="370"
               height="294"
             />
-            <h3>Project prime</h3>
-            <p>Marketing</p>
+            <h3 class="project-name">Project prime</h3>
+            <p class="product">Marketing</p>
           </li>
           <li class="projects"
             ><img
@@ -93,8 +90,8 @@
               width="370"
               height="294"
             />
-            <h3>Project boxes</h3>
-            <p>Apps</p>
+            <h3 class="project-name">Project boxes</h3>
+            <p class="product">Apps</p>
           </li>
           <li class="projects"
             ><img
@@ -104,8 +101,8 @@
               width="370"
               height="294"
             />
-            <h3>Inspiration has no borders</h3>
-            <p>Web-site</p>
+            <h3 class="project-name">Inspiration has no borders</h3>
+            <p class="product">Web-site</p>
           </li>
           <li class="projects"
             ><img
@@ -115,8 +112,8 @@
               width="370"
               height="294"
             />
-            <h3>Limited Edition</h3>
-            <p>Design</p>
+            <h3 class="project-name">Limited Edition</h3>
+            <p class="product">Design</p>
           </li>
           <li class="projects"
             ><img
@@ -126,8 +123,8 @@
               width="370"
               height="294"
             />
-            <h3>Project lab</h3>
-            <p>Marketing</p>
+            <h3 class="project-name">Project lab</h3>
+            <p class="product">Marketing</p>
           </li>
           <li class="projects"
             ><img
@@ -137,26 +134,27 @@
               width="370"
               height="294"
             />
-            <h3>Growing business</h3>
-            <p>Apps</p>
+            <h3 class="project-name">Growing business</h3>
+            <p class="product">Apps</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a class="logo" href="./index.html">Web<span class="logo-part">studio</span></a>
+      <a class="logo" href="./index.html">Web<span class="footer-logo-part">studio</span></a>
       <address>
         <ul>
           <li
             ><a
+              class="main-footer-one"
               href="https://goo.gl/maps/xAhFo77AcfXD6E7u5"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >695 Park Ave, New York, NY 10065, United States</a
             ></li
           >
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a class="main-footer-two" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="main-footer-two" href="tel:+12127724150">+1 212 772 4150</a></li>
         </ul>
       </address>
     </footer>
