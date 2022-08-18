@@ -1,16 +1,8 @@
-/*.list {
-      font-family: 'Roboto';}*/
+a {text-decoration: none;}
 
-body {
-
-width: 1600px;
-margin: 0 auto;
-background-color: #FFFFFF;
-}
-
-      .header .logo {
-    color: #2196F3;
-    font-family: 'Raleway';
+.header .logo {
+color: #2196F3;
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -24,15 +16,21 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 }
-.header-list {
-    font-family: 'Roboto';
-    color: #212121;
+.header .header-list {
+font-family: 'Roboto';
+color: #212121
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+
 }
+.header .header-list .list-item-one:hover, .list-item-one:focus {color: #2196F3;}
+.header-list .list-item-one:active {color: #2196F3;}
+.header-list .list-item-one:visited {color: #757575 }
+
+
 .logo .list-item-five {
     color: #757575;
 }
