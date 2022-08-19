@@ -78,7 +78,8 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
-border: none;}
+border: none;
+cursor: pointer;}
 
 .main-btn:hover {background-color: #188CE8;}
 
@@ -126,8 +127,6 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;}
-
-{list-style-type: none;}
 
 .team-section {background-color: #F5F4FA;}
 
