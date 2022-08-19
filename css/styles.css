@@ -1,5 +1,7 @@
+body {
+    font-family: 'Roboto'
+}
 a {text-decoration: none;}
-ul {list-style-type: none;}
 
 .logo {
 color: #2196F3;
@@ -18,62 +20,46 @@ font-size: 26px;
 line-height: 31px;}
 
 .header-list {
-font-family: 'Roboto';
 color: #212121;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+cursor: pointer;
+list-style-type: none;}
 
-.main-header-one {color: #2196F3;}
+.header-current {color: #2196F3;}
 
-.portfolio-header-one {color: #212121;}
+.portfolio-header-one, .main-header-two, .main-header-three {color: #212121;}
 
-.main-header-two {color: #212121;}
+.main-header-four, .main-header-five {color: #757575;}
 
-.portfolio-header-two {color: #2196F3;}
 
-.main-header-three {color: #212121;}
+.header-current:hover, .header-current:focus, .header-current:active {color: #2196F3;}
+/*.header-current:visited {color: #757575 }*/
 
-.main-header-four {color: #757575;}
-
-.main-header-five {color: #757575;}
-
-.main-header-one:hover, .main-header-one:focus {color: #2196F3;}
-.main-header-one:active {color: #2196F3;}
-/*.main-header-one:visited {color: #757575 }*/
-
-.portfolio-header-one:hover, .portfolio-header-one:focus {color: #2196F3;}
-.portfolio-header-one:active {color: #2196F3;}
+.portfolio-header-one:hover, .portfolio-header-one:focus, .portfolio-header-one:active {color: #2196F3;}
 /*.portfolio-header-one:visited {color: #757575 }*/
 
-.main-header-two:hover, .main-header-two:focus {color: #2196F3;}
-.main-header-two:active {color: #2196F3;}
+.portfolio-header-one:hover, .portfolio-header-one:focus, .portfolio-header-one:active {color: #2196F3;}
+/*.portfolio-header-one:visited {color: #757575 }*/
+
+.main-header-two:hover, .main-header-two:focus, .main-header-two:active {color: #2196F3;}
 /*.main-header-two:visited {color: #757575 }*/
 
-.portfolio-header-one:hover, .portfolio-header-one:focus {color: #2196F3;}
-.portfolio-header-one:active {color: #2196F3;}
-/*.portfolio-header-one:visited {color: #757575 }*/
-
-.main-header-three:hover, .main-header-three:focus {color: #2196F3;}
-.main-header-three:active {color: #2196F3;}
+.main-header-three:hover, .main-header-three:focus, .main-header-three:active {color: #2196F3;}
 /*.main-header-three:visited {color: #757575 }*/
 
-.main-header-four:hover, .main-header-four:focus {color: #2196F3;}
-.main-header-four:active {color: #2196F3;}
+.main-header-four:hover, .main-header-four:focus, .main-header-four:active {color: #2196F3;}
 /*.main-header-four:visited {color: #757575 }*/
 
-.main-header-five:hover, .main-header-five:focus {color: #2196F3;}
-.main-header-five:active {color: #2196F3;}
+.main-header-five:hover, .main-header-five:focus, .main-header-five:active {color: #2196F3;}
 /*.main-header-five:visited {color: #757575 }*/
-
 
 .main-section {background-color: #2F303A;}
 
 .title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -83,8 +69,6 @@ text-transform: uppercase;
 color: #FFFFFF;}
 
 .main-btn {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
@@ -96,11 +80,29 @@ color: #FFFFFF;
 background-color: #2196F3;
 border: none;}
 
-.hide {display: none;}
+.main-btn:hover {background-color: #188CE8;}
+
+.hiden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+outline: 0;
+outline-offset: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+visibility: hidden;
+pointer-events: none;
+position: absolute;
+}
+
+.features, .business, .team, .footer {list-style-type: none;}
 
 .features-header {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -109,17 +111,15 @@ text-transform: uppercase;
 color: #212121;}
 
 .features-text {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;}
 
-.business {
-font-family: 'Roboto';
-font-style: normal;
+.business-section {background-color: #ffffff;}
+
+.business-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -127,9 +127,11 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;}
 
+{list-style-type: none;}
+
+.team-section {background-color: #F5F4FA;}
+
 .employee-name {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -138,8 +140,6 @@ letter-spacing: 0.03em;
 color: #212121;}
 
 .job-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -158,7 +158,6 @@ font-size: 26px;
 line-height: 31px;}
 
 .main-footer-one {
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -167,12 +166,21 @@ letter-spacing: 0.03em;
 color: #FFFFFF;}
 
 .main-footer-two {
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-}
+color: rgba(255, 255, 255, 0.6);}
 
+.main-footer-three {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+
+.main-footer-one:hover, .main-header-one:focus, .main-header-one:active {color: #2196F3;}
+.main-footer-two:hover, .main-header-two:focus, .main-header-two:active {color: #2196F3;}
+.main-footer-three:hover, .main-header-three:focus, .main-header-three:active {color: #2196F3;}
