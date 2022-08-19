@@ -35,7 +35,6 @@ list-style-type: none;}
 
 .main-header-four, .main-header-five {color: #757575;}
 
-
 .header-current:hover, .header-current:focus, .header-current:active {color: #2196F3;}
 /*.header-current:visited {color: #757575 }*/
 
@@ -101,7 +100,7 @@ pointer-events: none;
 position: absolute;
 }
 
-.features, .business, .team, .footer {list-style-type: none;}
+.features, .business, .team, .footer-list {list-style-type: none;}
 
 .features-header {
 font-weight: 700;
@@ -146,7 +145,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #757575;}
 
-footer {background-color: #2F303A;}
+.footer {background-color: #2F303A;}
 
 .footer-logo-part {
 color: #ffffff;
