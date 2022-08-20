@@ -62,17 +62,11 @@ a {
 .header-current:active {
   color: var(--brand-color);
 }
-.header-current:visited {
-  color: var(--brand-color);
-}
 
 .portfolio-header-one:hover,
 .portfolio-header-one:focus,
 .portfolio-header-one:active {
   color: var(--brand-color);
-}
-.portfolio-header-one:visited {
-  color: var(--font-color-one);
 }
 
 .main-header-two:hover,
@@ -80,17 +74,11 @@ a {
 .main-header-two:active {
   color: var(--brand-color);
 }
-.main-header-two:visited {
-  color: var(--font-color-one);
-}
 
 .main-header-three:hover,
 .main-header-three:focus,
 .main-header-three:active {
   color: var(--brand-color);
-}
-.main-header-three:visited {
-  color: var(--font-color-one);
 }
 
 .main-header-four:hover,
@@ -98,17 +86,11 @@ a {
 .main-header-four:active {
   color: var(--brand-color);
 }
-.main-header-four:visited {
-  color: var(--font-color-two);
-}
 
 .main-header-five:hover,
 .main-header-five:focus,
 .main-header-five:active {
   color: var(--brand-color);
-}
-.main-header-five:visited {
-  color: var(--font-color-two);
 }
 
 .main-section {
@@ -121,7 +103,7 @@ a {
   line-height: 1.3;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--background-color-two);
 }
 
@@ -140,12 +122,8 @@ a {
 }
 
 .main-btn:hover,
-.main-btn:focus,
-.main-header-four:active {
+.main-btn:focus {
   background-color: #188ce8;
-}
-.main-header-four:visited {
-  background-color: var(--brand-color);
 }
 
 .hiden {
@@ -178,7 +156,7 @@ a {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--font-color-one);
 }
 
@@ -274,28 +252,17 @@ a {
 .main-footer-one:active {
   color: var(--brand-color);
 }
-.main-footer-one:visited {
-  color: var(--background-color-two);
-}
+
 .main-footer-two:hover,
 .main-footer-two:focus,
 .main-footer-two:active {
   color: var(--brand-color);
 }
-.main-footer-two:visited {
-  color: var(--font-color-three);
-}
+
 .main-footer-three:hover,
 .main-footer-three:focus,
 .main-footer-three:active {
   color: var(--brand-color);
-}
-.main-footer-three:visited {
-  color: var(--font-color-three);
-}
-
-body {
-  font-family: 'Roboto';
 }
 
 .portfolio-btn {
@@ -319,7 +286,6 @@ body {
   color: var(--background-color-two);
   background-color: var(--brand-color);
 }
-/*.portfolio-btn:visited {color: #757575 }*/
 
 .button-list,
 .projects {
